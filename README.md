@@ -16,3 +16,16 @@ https://github.com/naoyukiharada/naoyuki-readable-code.git
 $ javac main1.java
 $ java main1
 ```
+
+# レシピデータ
+
+## ファイル名 recipe-data.txt
+
+## 書式
+
+1行ごとにレシピのタイトルを記述します。
+
+```
+オムライス
+ハンバーグ
+```
