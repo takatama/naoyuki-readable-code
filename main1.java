@@ -5,7 +5,7 @@ class main1 {
         String recipeDataFilename = "recipe-data.txt";
         List<Recipe> recipeList = RecipeReader.load(recipeDataFilename);
         for (Recipe recipe: recipeList) {
-            System.out.println(recipe.getTitle());
+            System.out.println(recipe.getId() + ": " + recipe.getTitle());
         }
     }
 }
