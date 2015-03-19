@@ -1,5 +1,5 @@
 class Recipe {
-    private static String title;
+    private final String title;
 
     public Recipe(final String title) {
         this.title = title;

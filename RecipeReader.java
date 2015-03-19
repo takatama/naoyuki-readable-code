@@ -8,11 +8,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 class RecipeReader {
-
-    private static Recipe createRecipe(final String line) {
-        return new Recipe(line);
-    }
-
     public static List<Recipe> load(final String filename) {
         List<Recipe> recipeList = new ArrayList<>();
 
@@ -20,7 +15,7 @@ class RecipeReader {
             String line = br.readLine();
 
             while(line != null) {
-                recipeList.add(createRecipe(line));
+                recipeList.add(new Recipe(line));
                 line = br.readLine();
             }
         } catch (IOException e) {
