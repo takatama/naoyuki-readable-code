@@ -1,6 +1,9 @@
 class main1{
         public static void main(String args[]){
-         System.out.println("オムライス");
+		String recipe;
+		recipe = "オムライス";
+
+		System.out.println(recipe);
         }
 }
 
