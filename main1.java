@@ -1,9 +1,9 @@
-class main1{
-        public static void main(String args[]){
-		String recipe;
-		recipe = "オムライス";
+class main1 {
+    public static void main(String args[]) {
+        String recipe;
+        recipe = "オムライス";
 
-		System.out.println(recipe);
-        }
+        System.out.println(recipe);
+    }
 }
 
