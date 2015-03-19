@@ -14,7 +14,7 @@ https://github.com/naoyukiharada/naoyuki-readable-code.git
 
 ```
 $ javac main1.java
-$ java main1
+$ java main1 recipe-data.txt 1
 ```
 
 # レシピデータ
